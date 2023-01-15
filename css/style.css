@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Impact", sans-serif;
+  src: url(../fonts/impact.woff2);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -32,6 +37,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
+  background: linear-gradient(180deg, #d8d4ca 0%, rgba(217, 217, 217, 0) 100%);
 }
 
 .nav {
@@ -45,17 +51,68 @@ body {
   padding-top: 25px;
 }
 
+.menu-left {
+  padding-left: 25px;
+}
+
+.menu-right {
+  padding-right: 80px;
+}
+
 .menu-link {
   color: #363636;
   font-size: 16px;
 }
 .promo {
-background-image: url(../images/promo.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+  background-image: url(../images/promo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.promo__inner{
+.promo__inner {
+  /* padding-top: 100px; */
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+  text-align: center;
+}
+
+.title {
+  padding-top: 98px;
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 76px;
+  letter-spacing: 0.08em;
+  line-height: 93px;
+  color: #040404;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.subtitle {
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #040404;
+  border-bottom: 1px solid #040404;
+  margin-bottom: 10px;
+  align-self: center;
+}
+.subtitle span {
+  display: block;
+  font-size: 34px;
+  color: #9f6b08;
+  padding: 10px 0;
+}
+.promo__text {
+  font-size: 16px;
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.promo__arrow {
+  margin-top: auto;
+  margin-bottom: 30px;
+  align-self: center;
 }
