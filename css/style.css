@@ -250,24 +250,23 @@ body {
 }
 
 .evo-black__inner::before {
-content: '';
-position: absolute;
-background-image: url(/images/dec-1.svg);
-width: 185px;
-height: 213px;
-top: 210px;
-left: -130px;
+  content: "";
+  position: absolute;
+  background-image: url(/images/dec-1.svg);
+  width: 185px;
+  height: 213px;
+  top: 210px;
+  left: -130px;
 }
 
 .evo-black__inner::after {
-content: '';
-position: absolute;
-background-image: url(/images/dec-2.svg);
-width: 498px;
-height: 572px;
-top: 290px;
-left: -40px;
-
+  content: "";
+  position: absolute;
+  background-image: url(/images/dec-2.svg);
+  width: 498px;
+  height: 572px;
+  top: 290px;
+  left: -40px;
 }
 
 .evo-black__info {
@@ -308,23 +307,23 @@ left: -40px;
 }
 
 .evo-white__inner::before {
-content: '';
-position: absolute;
-background-image: url(/images/dec-3.png);
-width: 274px;
-height: 257px;
-top: -20px;
-left: 360px;
+  content: "";
+  position: absolute;
+  background-image: url(/images/dec-3.png);
+  width: 274px;
+  height: 257px;
+  top: -20px;
+  left: 360px;
 }
 
 .evo-white__inner::after {
-content: '';
-position: absolute;
-background-image: url(/images/dec-4.png);
-width: 324px;
-height: 311px;
-top: 126px;
-left: 600px;
+  content: "";
+  position: absolute;
+  background-image: url(/images/dec-4.png);
+  width: 324px;
+  height: 311px;
+  top: 126px;
+  left: 600px;
 }
 
 .evo-white__text {
@@ -355,4 +354,82 @@ left: 600px;
 .evo-white__video-link span {
   display: block;
   color: #fff;
+}
+
+.blog {
+  margin-bottom: 100px;
+}
+
+.blog__title {
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.blog__item-img {
+  margin-bottom: 20px;
+}
+
+.blog__item-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  min-height: 46px;
+}
+
+.blog__item-text {
+  margin-bottom: 10px;
+}
+
+.blog__item-link {
+  font-size: 12px;
+  color: #363636;
+}
+.blog__slider {
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.blog__button {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  left: 50%;
+}
+
+.swiper-button-left {
+  transform: translateX(-51px);
+}
+
+.swiper-button-right {
+  transform: translateX(8px);
+}
+
+.blog__quote {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+
+}
+.blog__quote-box {
+  flex-basis: 434px;
+}
+.blockquote {
+  margin-bottom: 30px;
+}
+.backquote__name {
+font-weight: 700;
+margin-bottom: 10px;
+}
+.backquote__name span {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 12px;
+  color: #9f6b08;
+}
+.blockquote__text {
+  font-style: italic;
 }
