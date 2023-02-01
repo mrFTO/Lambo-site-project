@@ -641,7 +641,7 @@ body {
   }
 }
 .evo-black__inner::after {
-  display: none;
+  display: none;  
 }
 
 @media (max-width: 340px) {
