@@ -4,17 +4,23 @@ menuBtn.addEventListener("click", () => {
   menuMobile.classList.toggle("menu--open");
 }); // добавляем отслеживание событий на нажатие для константы menuBtn, при котором будет выполняться добавление класса menu--open к классу .menu-mobile
 
-
 // прописан слайдер для новостей
 const swiper = new Swiper(".swiper", {
   loop: true,
-  slidesPerView: 2,
-  spaceBetween: 20,
 
   navigation: {
     nextEl: ".swiper-button-right",
     prevEl: ".swiper-button-left",
   },
+  breakpoints: {
+    0: { slidesPerView: 1, },
+  
+  768: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+  }
+}
+  // установка параметров адаптации слайдера под разрешение экрана
 });
 
 // let map;
